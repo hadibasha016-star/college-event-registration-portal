@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>College Event Registration Portal</title> 
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <header>  
+  <h1>College Event Registration Portal</h1>  
+  <p>Explore, Register and Participate</p>
+  </header> 
+ <main>  
+  <section> 
+     <h2>Upcoming Events</h2>  
+    <input type="search" id="search" placeholder="Search events">   
+   <select id="categoryFilter">        <option value="">All Categories</option>        <option value="Technical">Technical</option>    
+    <option value="Cultural">Cultural</option>  
+      <option value="Sports">Sports</option>  
+    </select>  
+    <input type="date" id="dateFilter"> 
+     <div id="eventList"></div>  
+  </section>  
+  <section>      
+<h2>My Registrations</h2>  
+    <div id="myRegistrations"></div> 
+   </section>  </main>  <script src="script.js"></script>
+ </body> 
+</html>
+ 
